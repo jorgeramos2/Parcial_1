@@ -28,14 +28,34 @@ Crea una funcion llamada: challenge1  que realice lo siguiente:
 
 // CREA TU FUNCION challenge1 aqui:
 
-
+function challenge1()
+{
+     var botones = prompt("Ingrese los numeros de botones");
+     var i;
+    for (i = 0; i < botones; i++) 
+    {
+        var btn = document.createElement("BUTTON");
+        btn.innerHTML = nombres[i]; 
+        document.body.appendChild(btn); 
+    }
+}
 
 /*
 Crea una funcion llamada: challenge2 que utilizando un FOR convierta todos los nombres a mayusula y los escriba en la consola
 */
 
 // CREA TU FUNCION challenge2 2 aquí.
+function challenge2()
+{
 
+    var i ;
+    for(i = 0 ; i<nombres.length;i++)
+    {
+        var n = nombres[i].toUpperCase();
+        nombres[i]= n;
+        alert(nombres[i]);
+    }
+}
 
 
 /*

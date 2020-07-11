@@ -75,25 +75,27 @@ border-width: 2px;
 
   } 
 header{
-
+ display: none;
 }
+
 }
 
 /*  Small devices    */
 @media (max-width:599px) {
 
 header,.content{
-
+display: none;
 }
 
 .nav {
-
+display: flex;
+  flex-direction: column;
 
   }
 
 
 .nav > li {
-
+margin-bottom: 100px;
 }
 
 
